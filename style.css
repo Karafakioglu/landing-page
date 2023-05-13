@@ -68,3 +68,33 @@ body{
     width: 300px;
 }
 
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .sign-up-container{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    flex: 0 0 50%;
+} */
+
+.sign-up-container{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+}
+
+.sign-up-text{
+    justify-self:flex-start;
+    text-align: left;
+}
