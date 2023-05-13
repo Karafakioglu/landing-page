@@ -56,4 +56,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
 }
+
+.quote{
+    width: 300px;
+}
+
+.quote-owner{
+    width: 300px;
+}
+
