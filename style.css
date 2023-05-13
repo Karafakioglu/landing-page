@@ -100,7 +100,11 @@ body{
 }
 
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    background-color: gray;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
 }
