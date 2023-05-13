@@ -21,6 +21,33 @@ body{
 }
 
 .header-and-hero{
-    height: 200px;
+    height: 300px;
     background-color: #1F2937;
+}
+
+#hanging-sloth{
+    width: 300px;
+    height: auto;
+}
+
+
+.cute-sloth{
+    width: 200px;
+    height: auto;
+}
+
+.random-information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+}
+
+.random-information-title{
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.image-with-text-container > p{
+    width: 200px;
 }
