@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-right{
+    display: flex;
+}
