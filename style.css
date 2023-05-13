@@ -98,3 +98,9 @@ body{
     justify-self:flex-start;
     text-align: left;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
