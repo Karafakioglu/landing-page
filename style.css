@@ -51,3 +51,9 @@ body{
 .image-with-text-container > p{
     width: 200px;
 }
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
