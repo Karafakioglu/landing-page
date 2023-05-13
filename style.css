@@ -5,8 +5,18 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
+    height: 100px;
+    flex-shrink: 0;
 }
 
 .header-right{
     display: flex;
 }
+
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+
+}
+
