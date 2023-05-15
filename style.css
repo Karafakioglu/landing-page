@@ -78,12 +78,17 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:1rem;
+    column-gap: 3rem;
+    margin: 40px;
 }
 
 .random-information-title{
     flex: 0 0 100%;
     text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .image-with-text-container > p{
