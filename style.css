@@ -42,9 +42,7 @@ body{
     padding: 3rem;
 }
 
-.hero-container > button{
-    background-color: blue;
-}
+
 
 .header-and-hero{
 
@@ -137,4 +135,23 @@ body{
     width: 100%;
     padding-top: 30px;
     text-align: center;
+}
+
+#sign-up-first,
+#sign-up-second{
+    background-color: #3882F6;
+    font-weight: bolder;
+    border-radius: 25px;
+    height: 2rem;
+    width: 7rem;
+    color: white;
+    padding-top: 5px;
+    border-style: none;
+    outline-style: none;
+}
+
+#sign-up-second{
+color: white;
+border: 1px white solid;
+padding-bottom: 5px;
 }
