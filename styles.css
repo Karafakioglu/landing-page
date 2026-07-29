@@ -64,4 +64,14 @@ width: 300px;
     padding: 10px;
 }
 
+.third-section{
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote{
+    width: 50%;
+}
+
 
