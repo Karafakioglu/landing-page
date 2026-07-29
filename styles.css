@@ -68,10 +68,17 @@ width: 300px;
     display: flex;;
     flex-direction: column;
     align-items: center;
+
 }
 
 #quote{
     width: 50%;
+}
+
+#quote-owner{
+width: 50%;
+text-align: right;
+
 }
 
 
