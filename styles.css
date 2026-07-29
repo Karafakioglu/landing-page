@@ -41,3 +41,27 @@ width: 300px;
 .second-part-left > button{
     width: 5rem;
 }
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-with-text-container{
+    display: flex;
+}
+
+.img-small{
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.images-with-text{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+}
+
+
