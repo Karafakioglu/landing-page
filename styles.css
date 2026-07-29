@@ -103,3 +103,8 @@ text-align: right;
 .fourth-section-left-part p{
     margin: 0;
 }
+
+footer{
+    text-align: center;
+    background-color: gray;
+}
