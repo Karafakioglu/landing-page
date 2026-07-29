@@ -107,4 +107,8 @@ text-align: right;
 footer{
     text-align: center;
     background-color: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
