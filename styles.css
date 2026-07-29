@@ -1,0 +1,43 @@
+#logo{
+    width: 50px;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+#placeholder{
+    width: 70%;
+}
+
+
+.first-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-part-links > a{
+    padding: 10px;
+}
+
+.second-part{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.second-part-left{
+display: flex;
+flex-direction: column;
+width: 300px;
+}
+
+.second-part-left {
+    padding-right: 5rem;
+}
+
+.second-part-right{
+    padding-left: 5rem;
+}
+
+.second-part-left > button{
+    width: 5rem;
+}
