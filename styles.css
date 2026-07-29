@@ -78,7 +78,28 @@ width: 300px;
 #quote-owner{
 width: 50%;
 text-align: right;
+}
+
+.fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding: 2.5rem;
+    background-color: aqua;
 
 }
 
+.fourth-section-left-part{
+    display: flex;
+    flex-direction: column;
+}
 
+.fourth-section-left-part h4{
+    margin: 0;
+}
+
+.fourth-section-left-part p{
+    margin: 0;
+}
