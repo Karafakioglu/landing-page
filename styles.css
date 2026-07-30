@@ -60,6 +60,7 @@ button{
     border-color: white;
     border-radius: 25px;
     color: #E5E7EB;
+    border-style: double;
 }
 
 .second-section{
