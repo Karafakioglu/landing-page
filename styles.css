@@ -57,7 +57,7 @@ width: 600px;
 button{
     background-color: #3882F6;
     padding: 0.5rem 2rem;
-    border: none;
+    border-color: white;
     border-radius: 25px;
     color: #E5E7EB;
 }
@@ -133,7 +133,8 @@ button{
     margin-right: 10rem;
     margin-left: 10rem;
     padding: 2.5rem;
-    background-color: aqua;
+    background-color: #3882F6;
+    margin-bottom: 5rem;
 
 }
 
@@ -152,9 +153,6 @@ button{
 
 footer{
     text-align: center;
-    background-color: gray;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
