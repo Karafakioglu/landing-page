@@ -8,51 +8,58 @@ body{
 #header-logo{
     font-size: 24px;
     color: #F9FAF8;
-}
-
-#placeholder{
-    width: 70%;
+    margin: 0;
 }
 
 .first-section{
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
 }
-
 
 .first-part{
     display: flex;
-    justify-content: space-around;
+    margin: 1rem 10rem;
+    margin-bottom: 3rem;
+    justify-content: space-between;
 }
+
 
 .first-part-links > a{
     padding: 10px;
+    margin: 0;
 }
 
 .second-part{
     display: flex;
-    justify-content: center;
-    margin: 5rem;
+    flex-direction: row;
+    margin: 1rem 10rem;
+    gap: 5rem;
 }
 
-.second-part-left{
-display: flex;
-flex-direction: column;
-width: 300px;
+.second-part-left > h3{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
 }
 
-
-
-.second-part-left {
-    padding-right: 5rem;
+.second-part-left > p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.second-part-right{
-    padding-left: 5rem;
+#placeholder{
+width: 600px;
 }
 
-.second-part-left > button{
-    width: 5rem;
+button{
+    background-color: #3882F6;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 25px;
+    color: #E5E7EB;
 }
 
 .second-section{
