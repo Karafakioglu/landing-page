@@ -68,36 +68,62 @@ button{
     align-items: center;
 }
 
+.second-section > h3{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .images-with-text-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15rem;
+    gap: 3rem;
 }
 
 .img-small{
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 10px;
+    height: 165px;
+    width: 165px;
+    margin: 0;
+
 }
 
 .images-with-text{
     display: flex;
     flex-direction: column;
-    width: 150px;
-    padding: 10px;
+    justify-content: center;
+    width: 165px;
+
 }
 
-.third-section{
-    display: flex;;
-    flex-direction: column;
-    align-items: center;
+.images-with-text > p {
+    text-align: center;
+}
 
+
+.third-section{
+    background-color: #E5E7EB;
+    margin: 5rem 0;
+}
+
+#full-quote{
+    margin: 3rem 20rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #quote{
-    width: 50%;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
 
 #quote-owner{
-width: 50%;
-text-align: right;
+    align-self: flex-end;
 }
 
 .fourth-section{
