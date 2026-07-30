@@ -1,11 +1,22 @@
-#logo{
-    width: 50px;
-    height: fit-content;
-    align-self: flex-start;
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 #placeholder{
     width: 70%;
+}
+
+.first-section{
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 
@@ -29,6 +40,8 @@ display: flex;
 flex-direction: column;
 width: 300px;
 }
+
+
 
 .second-part-left {
     padding-right: 5rem;
